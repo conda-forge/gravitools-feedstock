@@ -10,7 +10,7 @@ recipe:
 
 source:
   url: https://pypi.org/packages/source/g/gravitools/gravitools-${{ version }}.tar.gz
-  sha256: 5a502256bd4fbc1f7274f28760fc3688a60680856f9bcc341916835285db0233
+  sha256: 5c3cb4e83b7dc634f7302d3e480fc02f0eec02ef365e82d877476e9055da8f28
 
 build:
   number: 0
