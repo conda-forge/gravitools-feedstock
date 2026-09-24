@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: gravitools
-  version: "0.2.0"
+  version: "0.3.0"
 
 recipe:
   name: ${{ name }}
@@ -59,7 +59,7 @@ outputs:
       python:
         entry_points:
           - gt-aqg-proc = gravitools.aqg.cli:main
-          - gt-aqg-dash = "gravitools.aqg.dashboard:main"
+          - gt-aqg-dash = gravitools.aqg.dashboard:main
       noarch: python
       script: ${{ PYTHON }} -m pip install . -vv
     requirements:
